@@ -26,7 +26,7 @@ end
 def now_serving(line)
   first_on_line = line.shift
   if line.size == 0 
-    puts "There is nobody on line."
+    puts "There is nobody waiting to be served!"
   else 
     puts "Now serving #{first_on_line}."
   end 
